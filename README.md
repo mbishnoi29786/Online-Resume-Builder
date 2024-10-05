@@ -42,10 +42,12 @@ Open your web browser and navigate to `http://localhost/Online-Resume-Builder`.
 
 ## Note
 
+Some of the files are not uploaded to this GitHub repository. These libraries were not included due to their size and concerns about licensing, as I haven’t fully reviewed their terms. You'll need to manually add them to the project directory.
 
-Some of the files, such as **mPDF**, **jQuery**, and **Bootstrap**, are not uploaded to this GitHub repository. These libraries were not included due to their size and concerns about licensing, as I haven’t fully reviewed their terms. You'll need to manually add them to the project directory.
+You can also view the **screenshots** of the website in the **screenshots directory** to get a preview of the functionality.
 
 If you need any help setting up this project, feel free to email me at `mbishnoi29786@gmail.com`.
+
 
 ## Contributing
 
