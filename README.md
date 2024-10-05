@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# Online-Resume-Builder
-
-## Note
-I am currently in the process of uploading various projects to GitHub. Due to other commitments, this may take a few days. I appreciate your understanding and patience during this time. 
-=======
 # Online Resume Builder
 
 The **Online Resume Builder** project allows users to create professional resumes with ease. After registering or logging in, users can choose from two available themes and fully customize their resume to their liking. The application offers features like adding custom sections, selecting fonts, background colors, and uploading profile images, with options to adjust their dimensions and borders. The final resume can be saved and downloaded in PDF format.
@@ -60,4 +54,3 @@ Contributions are welcome! If you'd like to improve the project or report an iss
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
->>>>>>> 5b0be94 (Initial commit for Online Resume Builder)
