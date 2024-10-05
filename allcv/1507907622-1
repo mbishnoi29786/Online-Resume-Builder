@@ -1,0 +1,252 @@
+<head><style>
+
+.cover{padding: 11px;}
+.cvBody{border:1px solid black; min-height: 100%;max-height:100%; background:black}
+.cv-head{background:#212121;width: 30%;padding: 4px;float:left}
+.photo{background:#283136;height: 222px}
+.cv-content{;background:#FAF2EF;padding:11px 11px 11px 11px;float:right}
+.center{text-align: center;}
+#cvname{font-size:12pt}
+.circle{border-radius: 50%}
+.flex{display: inline-flex;}
+.about-tab{background:#3C474D;padding: 11px}
+.about-head{ color: white ;font-size: 11pt;font-variant: small-caps;margin: 5px 2px;}
+.about-details{color: white;padding:4px; font-family: calibri light;font-size:8pt;}
+.about-details li{font-size: 8pt;margin: 5px}
+.body-item{}
+.body-head{font-size: 12pt;font-family: algerian;font-weight:bold}
+.body-details{padding:0 0 0 22px; }
+.detail-item,.info-item{margin-top: 3px}
+.detail-item-head{font-size: 8pt;font-family: calibri light;font-weight: bold}
+.detail-item-body{font-size:8pt}
+.info-item-head{width: 144px;font-size: 10pt;float: left;}
+.info-item-body{width: 200px;font-size: 10pt;float: right;}
+.detail-item-text{font-size: 10pt;}
+</style></head>
+		<div class="cvBody flex pull-left">
+			<div class="cv-head">
+				<div class="photo center ">
+					<span id="picSpan">
+						<img id="image_preview" src="photo/user.png" width="133px" style="margin: auto;padding-top: 6px">
+					</span><br><br>
+					<span style="color: white;" id="cvname">Muhammad Kashif Iqbal</span>
+				</div>
+				
+				<div class="about-tab fontTreb">
+					<div class="about-head"><i class="fa fa-user-circle-o fa-fw"></i> About Me</div>
+					<div class="about-details" id="cvaboutme">Write About yourself it may be objective or it may be about your future point of view.</div>
+				</div>
+				<div class="about-tab fontTreb">
+					<div class="about-head"><i class="fa fa-address-book-o fa-fw"></i> Contact Me</div>
+					<div class="about-details">
+						<ul>
+							<li id="cvphone1">0335-6910260</li>
+							<li id="cvphone2" style="display: none">0346-6882215</li>
+							<li id="cvaddress">Ada sanjar p/o shadan lund tehsil taunsa district dera ghaz khan</li>
+						</ul>
+					</div>
+				</div>
+				<div class="about-tab fontTreb">
+					<div class="about-head"><i class="fa fa-tags fa-fw"></i> Skills</div>
+					<div class="about-details">
+						<ul>
+							<li id="cvskill1">Microsoft Office</li>
+							<li id="cvskill2" style="display: none;">PHP,HTML,CSS</li>
+							<li id="cvskill3" style="display: none;">Software Development</li>
+							<li id="cvskill4" style="display: none;">Software Development</li>
+							<li id="cvskill5" style="display: none;">Software Development</li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+			<div class="cv-content">
+				<div class="body-item">
+					<div class="body-head"><i class="fa fa-graduation-cap fa-fw"></i> Education</div>
+					<div class="body-details fontTreb">
+						
+						<div class="detail-item" id="cvEdu1">
+							<div class="detail-item-head">
+								<span id="cvEdu1name">Master In Computer Science</span>,
+								<span id="cvEdu1py">2017</span>
+							</div>
+							
+							<div class="detail-item-body">Securing <span id="cvEdu1marks"> CGPA 3.77</span> <strong> From </strong> <span id="cvEdu1insiti">Insititution Name</span></div>
+						</div>
+						<div class="detail-item" id="cvEdu2" style="display: none;">
+							<div class="detail-item-head">
+								<span id="cvEdu2name">Degree Name</span>,
+								<span id="cvEdu2py">2017</span>
+							</div>
+							
+							<div class="detail-item-body">Securing <span id="cvEdu2marks"> CGPA 3.77</span> <strong>From </strong> <span id="cvEdu2insiti">Insititution Name</span></div>
+						</div>
+
+						<div class="detail-item" id="cvEdu3" style="display: none;">
+							<div class="detail-item-head">
+								<span id="cvEdu3name">Degree Name</span>,
+								<span id="cvEdu3py">2017</span>
+							</div>
+							
+							<div class="detail-item-body">Securing <span id="cvEdu3marks"> CGPA 3.77</span> <strong>From </strong> <span id="cvEdu3insiti">Insititution Name</span> </div>
+						</div>
+
+						<div class="detail-item" id="cvEdu4" style="display: none;">
+							<div class="detail-item-head">
+								<span id="cvEdu4name">Degree Name</span>,
+								<span id="cvEdu4py">2017</span>
+							</div>
+							
+							<div class="detail-item-body">Securing <span id="cvEdu4marks"> CGPA 3.77</span> <strong>From </strong> <span id="cvEdu4insiti">Insititution Name</span></div>
+						</div>
+
+						<div class="detail-item" id="cvEdu5" style="display: none;">
+							<div class="detail-item-head">
+								<span id="cvEdu5name">Degree Name</span>,
+								<span id="cvEdu5py">2017</span>
+							</div>
+							
+							<div class="detail-item-body">Securing <span id="cvEdu5marks"> CGPA 3.77</span> <strong>From </strong> <span id="cvEdu5insiti">Insititution Name</span></div>
+						</div>
+
+						<div class="detail-item" id="cvEdu6" style="display: none;">
+							<div class="detail-item-head">
+								<span id="cvEdu6name">Degree Name</span>,
+								<span id="cvEdu6py">2017</span>
+							</div>
+							
+							<div class="detail-item-body">Securing <span id="cvEdu6marks"> CGPA 3.77</span> <strong>From </strong> <span id="cvEdu6insiti">Insititution Name</span></div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="body-item" id="expMenu">
+					<div class="body-head"><i class="fa fa-edit fa-fw"></i> Experience</div>
+					<div class="body-details fontTreb" id="cvExp1">
+						<div class="detail-item">
+							<div class="detail-item-head" id="cvExp1">
+								<span id="cvExp1name">Private Teacher Practice</span>, 
+								<span id="cvExp1start">2016</span>-
+								<span id="cvExp1leave">present</span>
+							</div>
+							<div class="detail-item-body" id="cvExp1insiti">IN Ghazi University Dera Ghazi</div>
+						</div>
+
+						<div class="detail-item" style="display: none;" id="cvExp2">
+							<div class="detail-item-head">
+								<span id="cvExp2name">Private Teacher Practice</span>, 
+								<span id="cvExp2start">2016</span>-
+								<span id="cvExp2leave">present</span>
+							</div>
+							<div class="detail-item-body" id="cvExp2insiti">IN Ghazi University Dera Ghazi</div>
+						</div>
+
+						<div class="detail-item" style="display: none;" id="cvExp3">
+							<div class="detail-item-head">
+								<span id="cvExp3name">Private Teacher Practice</span>, 
+								<span id="cvExp3start">2016</span>-
+								<span id="cvExp3leave">present</span>
+							</div>
+							<div class="detail-item-body" id="cvExp3insiti">IN Ghazi University Dera Ghazi</div>
+						</div>
+						
+						<div class="detail-item" style="display: none;" id="cvExp4">
+							<div class="detail-item-head">
+								<span id="cvExp4name">Private Teacher Practice</span>, 
+								<span id="cvExp4start">2016</span>-
+								<span id="cvExp4leave">present</span>
+							</div>
+							<div class="detail-item-body" id="cvExp4insiti">IN Ghazi University Dera Ghazi</div>
+						</div>
+
+						<div class="detail-item" style="display: none;" id="cvExp5">
+							<div class="detail-item-head">
+								<span id="cvExp5name">Private Teacher Practice</span>, 
+								<span id="cvExp5start">2016</span>-
+								<span id="cvExp5leave">present</span>
+							</div>
+							<div class="detail-item-body" id="cvExp5insiti">IN Ghazi University Dera Ghazi</div>
+						</div>
+
+						<div class="detail-item" style="display: none;" id="cvExp6">
+							<div class="detail-item-head">
+								<span id="cvExp6name">Private Teacher Practice</span>, 
+								<span id="cvExp6start">2016</span>-
+								<span id="cvExp6leave">present</span>
+							</div>
+							<div class="detail-item-body" id="cvExp6insiti">IN Ghazi University Dera Ghazi</div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="body-item" id="personalMenu">
+					<div class="body-head"><i class="fa fa-info-circle fa-fw"></i>Personal Information</div>
+					<div class="body-details fontTreb">
+						
+						<div class="info-item" id="pInfo1">
+							<div class="info-item-head"><i class="fa fa-square-o fa-fw"></i> <span id="cvKey1"> Key</span></div>
+							<div class="info-item-body"><span id="cvValue1">Value</span></div>
+						</div>
+						<div class="info-item" style="display: none;" id="pInfo2">
+							<div class="info-item-head"><i class="fa fa-square-o fa-fw"></i> <span id="cvKey2"> Key</span></div>
+							<div class="info-item-body"><span id="cvValue2">Value</span></div>
+						</div>
+						<div class="info-item" style="display: none;" id="pInfo3">
+							<div class="info-item-head"><i class="fa fa-square-o fa-fw"></i> <span id="cvKey3"> Key</span></div>
+							<div class="info-item-body"><span id="cvValue3">Value</span></div>
+						</div>
+						<div class="info-item" style="display: none;" id="pInfo4">
+							<div class="info-item-head"><i class="fa fa-square-o fa-fw"></i> <span id="cvKey4"> Key</span></div>
+							<div class="info-item-body"><span id="cvValue4">Value</span></div>
+						</div>
+						<div class="info-item" style="display: none;" id="pInfo5">
+							<div class="info-item-head"><i class="fa fa-square-o fa-fw"></i> <span id="cvKey5"> Key</span></div>
+							<div class="info-item-body"><span id="cvValue5">Value</span></div>
+						</div>
+						<div class="info-item" style="display: none;" id="pInfo6">
+							<div class="info-item-head"><i class="fa fa-square-o fa-fw"></i> <span id="cvKey6"> Key</span></div>
+							<div class="info-item-body"><span id="cvValue6">Value</span></div>
+						</div>
+						<div class="info-item" style="display: none;" id="pInfo7">
+							<div class="info-item-head"><i class="fa fa-square-o fa-fw"></i> <span id="cvKey7"> Key</span></div>
+							<div class="info-item-body"><span id="cvValue7">Value</span></div>
+						</div>
+						<div class="info-item" style="display: none;" id="pInfo8">
+							<div class="info-item-head"><i class="fa fa-square-o fa-fw"></i> <span id="cvKey8"> Key</span></div>
+							<div class="info-item-body"><span id="cvValue8">Value</span></div>
+						</div>
+						<div class="info-item" style="display: none;" id="pInfo9">
+							<div class="info-item-head"><i class="fa fa-square-o fa-fw"></i> <span id="cvKey9"> Key</span></div>
+							<div class="info-item-body"><span id="cvValue9">Value</span></div>
+						</div>
+						<div class="info-item" style="display: none;" id="pInfo10">
+							<div class="info-item-head"><i class="fa fa-square-o fa-fw"></i> <span id="cvKey10">Key</span></div>
+							<div class="info-item-body"><span id="cvValue10">Value</span></div>
+						</div>
+						
+
+					</div>
+				</div>
+				<br><div style="clear: both;"></div>
+				<div class="body-item" id="langMenu">
+					<div class="body-head"><i class="fa fa-flag fa-fw"></i> Languages</div>
+					<div class="body-details fontTreb">
+						<div class="detail-item">
+							<div class="detail-item-text" id="cvLangText">Urdu,English and Saraiki</div>
+						</div>
+						
+					</div>
+				</div>
+				<br>
+				<div class="body-item" id="customMenu">
+					<div class="body-head"><i class="fa fa-info fa-fw"></i> <span id="cvCustomHead"> Custom Header</span></div>
+					<div class="body-details fontTreb">
+						<div class="detail-item">
+							<div class="detail-item-text" id="cvCustomText">Custom Text</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+	</div>	
+	
